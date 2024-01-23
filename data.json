@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "photo": "../assets/images/course_1 (1).jpg",
+      "title": "A complete guide to desing",
+      "about": "Adobe Guide , Layes , Smart Objects etc...",
+      "icon": "../assets/images/author.jpg",
+      "name": "Michael Smith , Author",
+      "price": 129,
+      "isFavorite": false,
+      "inBasket": null
+    },
+    {
+      "id": "2",
+      "photo": "../assets/images/course_2.jpg",
+      "title": "Beginners guide to HTML",
+      "about": "Adobe Guide , Layes , Smart Objects etc...",
+      "icon": "../assets/images/author.jpg",
+      "name": "Michael Smith , Author",
+      "price": 79,
+      "isFavorite": false,
+      "inBasket": null
+    },
+    {
+      "id": "3",
+      "photo": "../assets/images/course_3.jpg",
+      "title": "Advanced Photoshop",
+      "about": "Adobe Guide , Layes , Smart Objects etc...",
+      "icon": "../assets/images/author.jpg",
+      "name": "Michael Smith , Author",
+      "price": 109,
+      "isFavorite": false,
+      "inBasket": null
+    }
+  ]
+}

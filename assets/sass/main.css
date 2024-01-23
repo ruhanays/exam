@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.education {
+  max-width: 100%;
+  min-height: 100vh;
+  background: url("../images/slider_background.jpg");
+  background-position: center;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: left;
+}
+.education nav {
+  max-width: 1300px;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+.education nav .basketDot {
+  color: red;
+  position: relative;
+  top: -30px;
+  left: 20px;
+  display: none;
+}
+.education nav .pages {
+  display: flex;
+}
+.education nav .pages a {
+  font-size: 23px;
+  color: black;
+}
+.education nav .icons {
+  display: flex;
+}
+.education nav .icons img {
+  width: 20px;
+}
+.education nav .icons h1 {
+  display: flex;
+}
+.education nav .menu-list ul {
+  display: flex;
+  gap: 20px;
+}
+.education nav .phone-num {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  gap: 10px;
+  background-color: rgb(228, 142, 13);
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.education header .text {
+  color: aliceblue;
+  text-align: center;
+  padding-top: 300px;
+  font-size: 72px;
+}
+.education header .text span {
+  background-color: rgb(228, 142, 13);
+}
+
+.popular {
+  max-width: 100%;
+  height: 150vh;
+}
+.popular .name h1 {
+  font-weight: 500;
+  font-size: 36px;
+  color: rgb(26, 26, 26);
+  line-height: 43.2px;
+  text-align: center;
+  padding-top: 100px;
+}
+.popular .container .main {
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+  justify-content: center;
+}
+.popular .container .cards {
+  max-width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+.popular .container .cards .card div {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.popular .container .cards .card div a {
+  text-decoration: none;
+  color: white;
+}
+.popular .container .cards .card .btn {
+  background-color: rgb(228, 142, 13);
+  border: none;
+  margin-top: 20px;
+}
+.popular .container .cards .card img {
+  width: 100%;
+  height: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.popular .container .cards .card h1, .popular .container .cards .card p {
+  text-align: center;
+  font-weight: 500;
+  line-height: 26.4px;
+}
+.popular .container .cards .card h1 {
+  font-size: 22px;
+  padding-top: 30px;
+}
+.popular .container .cards .card p {
+  font-size: 18px;
+  color: rgb(131, 134, 134);
+}
+.popular .container .cards .card .persons {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.popular .container .cards .card .persons .icon img {
+  border-radius: 50%;
+  width: 46px;
+}
+.popular .container .cards .card .persons .name p {
+  color: black;
+}
+.popular .container .cards .card .persons .name span {
+  color: grey;
+}
+.popular .container .cards .card .persons .price {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(228, 142, 13);
+}
+.popular .container .cards .card .persons .price span {
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.containerAdd {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+.containerAdd input {
+  width: 300px;
+  height: 30px;
+}
+.containerAdd label {
+  font-size: 25px;
+}
+
+table {
+  width: 60%;
+  margin: 0 auto;
+  border: 2px solid black;
+  margin-top: 30px;
+}
+table tr {
+  width: 30%;
+}
+
+@media screen and (max-width: 425px) {
+  .menu-list {
+    display: none;
+  }
+  .phone-num {
+    display: none;
+  }
+  .cards {
+    max-width: 400px;
+    flex-wrap: wrap;
+  }
+  .persons {
+    max-width: 280px;
+  }
+  .contaier {
+    flex-wrap: wrap;
+  }
+  .yellow {
+    width: 100%;
+  }
+  .gray {
+    width: 100%;
+  }
+}
+.searchSec {
+  max-width: 100%;
+  height: 100vh;
+}
+.searchSec .container {
+  max-width: 100%;
+  height: 100vh;
+  display: flex;
+  text-align: center;
+}
+.searchSec .container .yellow {
+  width: 50%;
+  height: 100vh;
+  background-color: rgb(228, 142, 13);
+  padding-top: 100px;
+}
+.searchSec .container .gray {
+  width: 50%;
+  height: 100vh;
+  background: url("../images/download.webp");
+  padding-top: 100px;
+}
+.searchSec .container .gray .forms input {
+  width: 500px;
+  height: 40px;
+  margin-top: 50px;
+}
+.searchSec .container .gray .forms .btn {
+  width: 500px;
+  margin-top: 50px;
+}/*# sourceMappingURL=main.css.map */
